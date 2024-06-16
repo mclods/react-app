@@ -1,0 +1,30 @@
+.coreConcepts {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: #140524;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.coreConcepts h2 {
+  margin: 1rem 0;
+}
+
+.coreConcepts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.coreConcepts li {
+  width: 15rem;
+}
+
+.coreConcepts li img {
+  width: 10rem;
+}
