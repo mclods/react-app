@@ -1,9 +1,14 @@
 import './TabButton.css';
 
-function TabButton({ children }) {
+function TabButton({ children, onClick, isSelected }) {
   return (
     <li>
-      <button className="tabButton">{children}</button>
+      <button
+        className={`tabButton ${isSelected ? 'active' : ''}`}
+        onClick={onClick}
+      >
+        {children}
+      </button>
     </li>
   );
 }
